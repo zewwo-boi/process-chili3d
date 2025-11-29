@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "description": "Data held by a single node; referred to as a record",
+  "oneOf": [
+    {
+      "properties": {
+        "type": {
+          "description": "Type of record",
+          "const": "node"
+        },
+        "action": {
+          "type": "number"
+        },
+        "newParent": {
+          "$ref": "node.schema.json"
+        },
+        "oldParent": {
+          "$ref": "node.schema.json"
+        },
+        "newPrevious": {
+          "$ref": "node.schema.json"
+        },
+        "oldPrevious": {
+          "$ref": "node.schema.json"
+        }
+      },
+      "required": [
+        "type"
+      ]
+    },
+    {
+      "properties": {
+        "type": {
+          "description": "Type of record",
+          "const": "array"
+        },
+        "records": {
+          "description": "Array of records",
+          "type": "array",
+          "items": {
+            "$ref": "#"
+          }
+        }
+      },
+      "required": [
+        "type"
+      ]
+    },
+    {
+      "properties": {
+        "type": {
+          "description": "Type of record",
+          "const": "property"
+        },
+        "name": {
+          "type": "string"
+        },
+        "newValue": {
+          "$ref": "property.schema.json"
+        },
+        "object": {
+          "$ref": "node.schema.json"
+        },
+        "oldValue": {
+          "$ref": "property.schema.json"
+        }
+      },
+      "required": [
+        "type"
+      ]
+    }
+  ]
+}

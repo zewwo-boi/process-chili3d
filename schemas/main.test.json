@@ -1,0 +1,22 @@
+{
+  "$schema": "main.schema.json",
+  "children": [
+    {
+      
+    }
+  ],
+  "data": {
+    "type": "array",
+    "records": [
+      {
+        "type": "property",
+        "newValue": {
+          "transform": [1]
+        }
+      }
+    ]
+  },
+  "meta": {
+    "label": ""
+  }
+}
