@@ -1,5 +1,5 @@
 {
-  "BoxNode": [
+  "box": [
     "plane",
     "dx",
     "dy",
@@ -8,7 +8,7 @@
     "transform",
     "name"
   ],
-  "CircleNode": [
+  "circle": [
     "center",
     "radius",
     "normal",
@@ -18,7 +18,7 @@
     "transform",
     "name"
   ],
-  "ConeNode": [
+  "cone": [
     "center",
     "radius",
     "dz",
@@ -27,7 +27,7 @@
     "transform",
     "name"
   ],
-  "CylinderNode": [
+  "cylinder": [
     "center",
     "radius",
     "dz",
@@ -36,7 +36,7 @@
     "transform",
     "name"
   ],
-  "EllipseNode": [
+  "ellipse": [
     "center",
     "majorRadius",
     "minorRadius",
@@ -47,28 +47,28 @@
     "transform",
     "name"
   ],
-  "LineNode": [
+  "line": [
     "start",
     "end",
     "mesh",
     "transform",
     "name"
   ],
-  "PolygonNode": [
+  "polygon": [
     "points",
     "isFace",
     "mesh",
     "transform",
     "name"
   ],
-  "PrismNode": [
+  "prism": [
     "section",
     "length",
     "mesh",
     "transform",
     "name"
   ],
-  "PyramidNode": [
+  "pyramid": [
     "dx",
     "dy",
     "dz",
@@ -77,7 +77,7 @@
     "transform",
     "name"
   ],
-  "RectNode": [
+  "rect": [
     "dx",
     "dy",
     "plane",
@@ -86,7 +86,7 @@
     "transform",
     "name"
   ],
-  "RevolvedNode": [
+  "revolved": [
     "profile",
     "axis",
     "angle",
@@ -94,7 +94,7 @@
     "transform",
     "name"
   ],
-  "SphereNode": [
+  "sphere": [
     "center",
     "radius",
     "shape",
@@ -102,7 +102,7 @@
     "transform",
     "name"
   ],
-  "SweepedNode": [
+  "sweeped": [
     "profile",
     "path",
     "round",
