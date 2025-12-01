@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "shapeClass": {
+      "const": "polygon"
+    },
+    "name": {
+      "type": "string"
+    },
+    "mesh": {},
+    "transform": {
+      "$ref": "../properties/transform.schema.json"
+    },
+    "points": {},
+    "isFace": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "shapeClass"
+  ]
+}

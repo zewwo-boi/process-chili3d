@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "classKey": "plane",
+    "properties": {
+      "type": "object",
+      "properties": {
+        "normal": {
+          "$ref": "../properties/xyz.schema.json"
+        },
+        "origin": {
+          "$ref": "../properties/xyz.schema.json"
+        },
+        "xvec": {
+          "$ref": "../properties/xyz.schema.json"
+        }
+      }
+    }
+  }
+}

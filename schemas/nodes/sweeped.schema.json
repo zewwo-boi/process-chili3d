@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "shapeClass": {
+      "const": "sweep"
+    },
+    "name": {
+      "type": "string"
+    },
+    "mesh": {},
+    "transform": {
+      "$ref": "../properties/transform.schema.json"
+    },
+    "profile": {},
+    "path": {},
+    "round": {
+      "type": "boolean"
+    },
+    "shape": {}
+  },
+  "required": [
+    "shapeClass"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "BoxNode": [
+    "plane",
+    "dx",
+    "dy",
+    "dz",
+    "mesh",
+    "transform",
+    "name"
+  ],
+  "CircleNode": [
+    "center",
+    "radius",
+    "normal",
+    "isFace",
+    "shape",
+    "mesh",
+    "transform",
+    "name"
+  ],
+  "ConeNode": [
+    "center",
+    "radius",
+    "dz",
+    "normal",
+    "mesh",
+    "transform",
+    "name"
+  ],
+  "CylinderNode": [
+    "center",
+    "radius",
+    "dz",
+    "normal",
+    "mesh",
+    "transform",
+    "name"
+  ],
+  "EllipseNode": [
+    "center",
+    "majorRadius",
+    "minorRadius",
+    "normal",
+    "xvec",
+    "isFace",
+    "mesh",
+    "transform",
+    "name"
+  ],
+  "LineNode": [
+    "start",
+    "end",
+    "mesh",
+    "transform",
+    "name"
+  ],
+  "PolygonNode": [
+    "points",
+    "isFace",
+    "mesh",
+    "transform",
+    "name"
+  ],
+  "PrismNode": [
+    "section",
+    "length",
+    "mesh",
+    "transform",
+    "name"
+  ],
+  "PyramidNode": [
+    "dx",
+    "dy",
+    "dz",
+    "plane",
+    "mesh",
+    "transform",
+    "name"
+  ],
+  "RectNode": [
+    "dx",
+    "dy",
+    "plane",
+    "isFace",
+    "mesh",
+    "transform",
+    "name"
+  ],
+  "RevolvedNode": [
+    "profile",
+    "axis",
+    "angle",
+    "mesh",
+    "transform",
+    "name"
+  ],
+  "SphereNode": [
+    "center",
+    "radius",
+    "shape",
+    "mesh",
+    "transform",
+    "name"
+  ],
+  "SweepedNode": [
+    "profile",
+    "path",
+    "round",
+    "shape",
+    "mesh",
+    "transform",
+    "name"
+  ]
+}

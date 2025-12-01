@@ -11,7 +11,14 @@
       {
         "type": "property",
         "newValue": {
-          "transform": [1]
+          "transform": []
+        }
+      },
+      
+      {
+        "type": "node",
+        "newParent": {
+          "shapeClass": "box"
         }
       }
     ]

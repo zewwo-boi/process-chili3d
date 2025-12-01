@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "shapeClass": {
+      "const": "ellipse"
+    },
+    "name": {
+      "type": "string"
+    },
+    "mesh": {},
+    "transform": {
+      "$ref": "../properties/transform.schema.json"
+    },
+    "center": {
+      "$ref": "../properties/xyz.schema.json"
+    },
+    "majorRadius": {
+      "type": "number"
+    },
+    "minorRadius": {
+      "type": "number"
+    },
+    "normal": {
+      "$ref": "../properties/xyz.schema.json"
+    },
+    "xvec": {
+      "$ref": "../properties/xyz.schema.json"
+    },
+    "isFace": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "shapeClass"
+  ]
+}

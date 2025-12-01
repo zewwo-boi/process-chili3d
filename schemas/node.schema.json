@@ -2,30 +2,49 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
-    "center": {
-      "type": "array"
-    },
     "mesh": {},
-    "radius": {},
-    "shapeClass": {
-      "const": [
-        "box",
-        "circle",
-        "cone",
-        "cylinder",
-        "ellipse",
-        "line",
-        "polygon",
-        "prism",
-        "pyramid",
-        "rect",
-        "revolve",
-        "sphere",
-        "sweep"
-      ]
-    },
     "scale": {},
-    "transform": {},
-    "plane": {}
-  }
+    "transform": {}
+  },
+  "oneOf": [
+    {
+      "$ref": "nodes/box.schema.json"
+    },
+    {
+      "$ref": "nodes/circle.schema.json"
+    },
+    {
+      "$ref": "nodes/cone.schema.json"
+    },
+    {
+      "$ref": "nodes/cylinder.schema.json"
+    },
+    {
+      "$ref": "nodes/ellipse.schema.json"
+    },
+    {
+      "$ref": "nodes/line.schema.json"
+    },
+    {
+      "$ref": "nodes/polygon.schema.json"
+    },
+    {
+      "$ref": "nodes/prism.schema.json"
+    },
+    {
+      "$ref": "nodes/pyramid.schema.json"
+    },
+    {
+      "$ref": "nodes/rect.schema.json"
+    },
+    {
+      "$ref": "nodes/revolved.schema.json"
+    },
+    {
+      "$ref": "nodes/sphere.schema.json"
+    },
+    {
+      "$ref": "nodes/sweeped.schema.json"
+    }
+  ]
 }

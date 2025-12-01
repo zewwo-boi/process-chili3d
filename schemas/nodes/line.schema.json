@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "shapeClass": {
+      "const": "line"
+    },
+    "name": {
+      "type": "string"
+    },
+    "mesh": {},
+    "transform": {
+      "$ref": "../properties/transform.schema.json"
+    },
+    "start": {
+      "$ref": "../properties/xyz.schema.json"
+    },
+    "end": {
+      "$ref": "../properties/xyz.schema.json"
+    }
+  },
+  "required": [
+    "shapeClass"
+  ]
+}

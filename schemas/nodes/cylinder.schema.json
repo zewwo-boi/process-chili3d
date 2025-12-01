@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "shapeClass": {
+      "const": "cylinder"
+    },
+    "name": {
+      "type": "string"
+    },
+    "mesh": {},
+    "transform": {
+      "$ref": "../properties/transform.schema.json"
+    },
+    "center": {
+      "$ref": "../properties/xyz.schema.json"
+    },
+    "radius": {
+      "type": "number"
+    },
+    "dz": {
+      "type": "number"
+    },
+    "normal": {
+      "$ref": "../properties/xyz.schema.json"
+    }
+  },
+  "required": [
+    "shapeClass"
+  ]
+}

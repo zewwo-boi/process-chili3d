@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "shapeClass": {
+      "const": "rect"
+    },
+    "name": {
+      "type": "string"
+    },
+    "mesh": {},
+    "transform": {
+      "$ref": "../properties/transform.schema.json"
+    },
+    "plane": {
+      "$ref": "../properties/plane.schema.json"
+    },
+    "dx": {
+      "type": "number"
+    },
+    "dy": {
+      "type": "number"
+    },
+    "isFace": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "shapeClass"
+  ]
+}
