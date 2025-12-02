@@ -23,10 +23,15 @@
       "type": "object",
       "properties": {
         "timestamp": {
-          "type": "number"
+          "type": "number",
+          "description": "ms since epoch (12 AM 1/1/1970 UTC)"
         },
         "label": {
           "type": "string"
+        },
+        "hesitation": {
+          "type": "number",
+          "description": "Amount of hesitation [0, 1] before the user committed to the action"
         }
       }
     }
