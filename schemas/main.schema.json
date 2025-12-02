@@ -1,9 +1,10 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
+  "description": "The root object that represents the state at a point in time",
   "properties": {
     "id": {
-      "description": "Unique identifier for node",
+      "description": "Unique identifier for time record",
       "type": "string"
     },
     "children": {
@@ -14,12 +15,11 @@
       }
     },
     "data": {
-      "description": "Data held by a single node; referred to as a record",
       "type": "object",
       "$ref": "record.schema.json"
     },
     "meta": {
-      "description": "Node metadata",
+      "description": "Time record metadata",
       "type": "object",
       "properties": {
         "timestamp": {

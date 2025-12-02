@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "description": "Data held by a single node; referred to as a record",
+  "description": "Block of data",
   "oneOf": [
     {
       "properties": {
