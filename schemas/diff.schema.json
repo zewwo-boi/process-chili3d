@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "rootId": {
+      "description": "Unique identifier for time record to apply changes to",
+      "type": "string"
+    },
+    "commits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "parentId": {
+            "description": "UUID of parent",
+            "type": "string"
+          },
+          "change": {
+            "$ref": "main.schema.json"
+          }
+        }
+      }
+    }
+  }
+}

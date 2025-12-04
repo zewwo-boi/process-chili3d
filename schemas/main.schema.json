@@ -11,8 +11,12 @@
       "description": "Children nodes",
       "type": "array",
       "items": {
-        "$ref": "#"
+        "type": "string"
       }
+    },
+    "parentId": {
+      "description": "Parent node",
+      "type": "string"
     },
     "data": {
       "type": "object",
